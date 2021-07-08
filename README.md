@@ -24,6 +24,18 @@ This notebook
 
 (original file name: 2016-02-11_tracking_movie_2016-01-26-01_60x1.0_Hematite_swimmers.ipynb)
 
+### tracking_avi_movie_and_saving_movie_of_trajectories.ipynb
+This notebook
+ 1. Opens a series of color tif stacks as a movie for two movies: an experiment and a control,
+ 2. separates the movie by color into red and green particles (which may have different brightness),
+ 3. Locates bright spots in each color with trackpy,
+ 4. links these into trajectories with trackpy,
+ 5. filters out trajectories of few frames using trackpy.filter_stubs, 
+ 7. saves the results, 
+ 8. calculates the imsd and emsd plots for each particle color and each movie,
+ 9. calculates the four vanhove plots,
+ 10. creates a movie of the particle trajectories (for the experiment and the control).
+
 ### choosing_trajectories_of_particles_that_travel_further_than_some_threshold.ipynb
  This notebook 
  1. opens an HDF5 xyt hyperstack file, 
