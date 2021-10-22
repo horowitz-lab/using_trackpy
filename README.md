@@ -24,9 +24,9 @@ This notebook
 
 (original file name: 2016-02-11_tracking_movie_2016-01-26-01_60x1.0_Hematite_swimmers.ipynb)
 
-### tracking_avi_movie_and_saving_movie_of_trajectories.ipynb
+### tracking_avi_movies_and_saving_movie_of_trajectories.ipynb
 This notebook
- 1. Opens a series of color tif stacks as a movie for two movies: an experiment and a control,
+ 1. Opens either avis or a series of color tif stacks as a movie for two movies: an experiment and a control,
  2. separates the movie by color into red and green particles (which may have different brightness),
  3. Locates bright spots in each color with trackpy,
  4. links these into trajectories with trackpy,
