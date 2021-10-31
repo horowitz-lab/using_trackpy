@@ -1,3 +1,4 @@
 
 .DS_Store
-.ipynb_checkpoints/tracking_avi_movies_and_saving_movie_of_trajectories-checkpoint.ipynb
+.ipynb_checkpoints*
+*~
