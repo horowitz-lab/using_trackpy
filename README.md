@@ -1,5 +1,5 @@
 # using_trackpy
-I have used trackpy with HDF5 xyt hyperstack movies and with avi movies. Here are my ipython notebooks.
+We have used trackpy with HDF5 xyt hyperstack movies and with avi movies. Here are our ipython notebooks.
 
 ### using_ipyparallel_with_trackpy.ipynb
 Using ipyparallel is recommended in the trackpy walkthrough for speeding up particle tracking. Here I have implemented it.
