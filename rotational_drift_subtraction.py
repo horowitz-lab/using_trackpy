@@ -1,4 +1,16 @@
 # Rotational drift subtraction starts here. First we need to define a bunch of functions.
+import numpy as np
+import pandas as pd
+import numba
+import matplotlib.pyplot as plt
+
+"""
+Known issue:
+PendingDeprecationWarning: the matrix subclass is not the recommended way to represent matrices 
+or deal with linear algebra (see https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html). 
+Please adjust your code to use regular ndarray.
+"""
+
 
 ## concatenate a new numerical column to a matrix
 def put_z_position_in_matrix(mat2D, z=0):
