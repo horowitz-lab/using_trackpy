@@ -53,6 +53,7 @@ Note that displacement_um will overestimate the maximum extents of the particle 
 
 ### MSD_standard_deviation.ipynb
 This notebook explores the standard deviation in the ensemble mean square displacement.
+It's a deep dive into how iMSD becomes eMSD, and I calculate the standard deviation of the iMSD, which can serve as an uncertainty for the eMSD.
 
 ### backgrounding_color_avi_movie_examples.ipynb
 This notebook shows some examples of how to work with a color avi file in python. If you run into errors opening an avi file using pims, make sure to run the setup script, available at https://github.com/vivarose/setup_script.
