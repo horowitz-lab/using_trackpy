@@ -23,8 +23,9 @@ This notebook
  5. filters out trajectories of few frames using trackpy.filter_stubs, 
  7. saves the results, 
  8. calculates the imsd and emsd plots for each particle color and each movie,
- 9. calculates the four vanhove plots,
- 10. creates a movie of the particle trajectories (for the experiment and the control).
+ 9. calculates gamma (in the style of Diego Krapf)
+ 10. calculates the four vanhove plots,
+ 11. creates a movie of the particle trajectories (for the experiment and the control).
 
 ### choosing_trajectories_of_particles_that_travel_further_than_some_threshold.ipynb
  This notebook 
