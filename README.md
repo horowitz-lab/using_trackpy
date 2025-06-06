@@ -47,6 +47,9 @@ This notebook explores the standard deviation in the ensemble mean square displa
 It's a deep dive into how iMSD becomes eMSD, and I calculate the standard deviation of the iMSD, which can serve as an uncertainty for the eMSD.
 my_emsd() is based on emsd() from https://github.com/soft-matter/trackpy/blob/master/trackpy/motion.py
 
+### stdev_emsd.py
+Defines functions for calculating the ensemble mean square displacement with standard deviation.
+
 ### backgrounding_color_avi_movie_examples.ipynb
 This notebook shows some examples of how to work with a color avi file in python. If you run into errors opening an avi file using pims, make sure to run the setup script, available at https://github.com/vivarose/setup_script.
 
